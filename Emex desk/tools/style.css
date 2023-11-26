@@ -1,0 +1,478 @@
+body{
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   
+}
+
+.header{
+    background-color: black;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+}
+
+/* .logo{
+    width: 5%;
+} */
+.logo img{
+    width: 50px;
+    border-radius: 50%;
+}
+.nav{
+    /* margin-left: 180px; */
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* .nav ul{
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-color: #fff;
+} */
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.nav ul li a{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 3px;
+}
+
+.nav ul li a:hover{
+    background-color: rgba(255, 255, 255,1);
+    color: #333;
+    padding: 2px 3px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.calltoaction{
+    /* justify-content: space-around; */
+    padding: 10px;
+    margin: auto;
+    width: 30%;
+}
+.calltoaction .login{
+    margin-right: 20px;
+}
+
+.calltoaction span{
+    margin: 8px;
+}
+
+.calltoaction button{
+    font-weight: bolder;
+    color: #fff;
+    background-color: blue;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* margin: 5px; */
+}
+
+.calltoaction button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.calltoaction button:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.container{
+    background-color: black;
+    color: #fff;
+    position: relative;    
+}
+
+.transparentflex{
+    background: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    width: 90%;
+    margin: auto;
+    position: absolute;
+    top: 390px;
+    left: 50px;
+    /* opacity: 1.5; */
+}
+
+.boxmini{
+    width: 10%;
+    font-size: 40px;
+    padding-top: 40px;
+    padding-right: 0px;
+    padding-left: 90px;
+    /* position: absolute; */
+}
+/* 
+.boxmini span{
+    padding: 0;
+} */
+
+.box1{
+    width: 30%;
+    padding: 0;
+    /* position: relative; */
+    /* margin-left: 100px;
+    margin-right: 40px; */
+}
+
+.container {
+    /* height: 300px; */
+    width: 100%;
+    position: relative;
+  }
+  
+.details{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 30%;
+}
+
+.details button{
+    font-weight: bolder;
+    color: #fff;
+    background-color: blue;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.details button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.details button:hover{
+    background-color: rgba(0, 0, 255, 0.7);
+}
+
+.name{
+    font-size: 40px;
+}
+
+.cointainer .slide{
+    /* height: 200px; */
+    width: 100%;
+}
+
+.slide img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blueboxes{
+    /* background-color: blue; */
+    color: #fff;
+    display: inline-flex;
+    width: 100%;
+    margin-top: 0;
+}
+
+.boxemex{
+    background-color: blue;
+    width: 25%;
+    line-height: 150px;
+    padding-left: 10px;
+}
+
+.box{
+    background-color: rgba(0, 0, 255, 0.738);
+    width: 25%;
+    display: inline;
+    padding-left: 80px;
+    position: relative;
+}
+
+.box span{
+    border-radius: 50%;
+    color: #333;
+    background-color: yellow;
+    padding: 15px;
+    position: absolute;
+    left: 2px;
+    top: 40px;
+}
+
+.prev, .next{
+    display: none;
+}
+
+/* new styling for the ones I edited please */
+.next-sect{
+    margin-top: 0;
+    padding: 10px 20px;
+}
+
+/* this is the div that holds the starting quote */
+.edu-weapon{
+    background-image: url("/images/edu-bg.jpg");
+    margin-top: 0px;
+}
+
+/* here is the main container for the quote */
+.edu-content{
+    width: 40%;
+    margin: 10px auto;
+    text-align: center;
+}
+/* this is the styling for the horizontal lines they are made to grow once hovered on */
+#hrr{
+    background-color: gold;
+    height: 2px;
+    width: 80%;
+    transition: 0.3s ease-in-out;
+}
+
+#hr{
+    background-color:dodgerblue;
+    height: 2px;
+    width: 80%;
+    transition: 0.3s ease-in-out;
+}
+#hrr:hover{
+    transform: scaleX(1.5);
+}
+
+#hr:hover{
+    transform: scaleX(1.5);
+}
+
+/* here is the styline for the images positioned horizontally using flex display option */
+
+.horizontal{
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+    justify-content: space-between;
+}
+
+.product{
+    width: 17%;
+    height: 200px;
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 2px 3px 10px;
+    background-color: lightgray;
+    
+    
+}
+.product img{
+    width: 70%;
+    margin: 10px 30px;
+    box-shadow: 2px 3px 5px black;
+}
+
+/* here is another section immediately after the lined up images */
+
+.get-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.getskills{
+    width: 40%;
+    margin: 0px auto;
+}
+.man-computer{
+    width: 45%;
+}
+.man-computer img{
+    width: 90%;
+}
+.lead{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+.lead span{
+    color: dodgerblue;
+}
+.get-box ul{
+    display: flex;
+    list-style: none;
+}
+.get-box ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 15px;
+    color: white;
+    font-weight: bold;
+    padding: 8px 20px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px black;
+    
+}
+
+/* here ends the section another section begins below, first with horizontal lines as styles */
+.flex-lines{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.rules{
+    padding-top: 50px;
+   width: 80%;
+}
+.rules hr{
+    width: 150px;
+    margin: 0px 40px;
+    background-color: lightgrey;
+    height: 4px;
+}
+
+.mid{
+    width: 60%;
+    margin: 60px auto;
+    text-align: center;
+}
+
+/* here is an element to flex the nested divs */
+
+.flex-box{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.boxy{
+    display: flex;
+    width: 30%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    box-shadow: 2px 1px 8px;
+
+}
+
+.boxy img{
+    width: 70%;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+/* New section starts here */
+
+.looking{
+    display: flex;
+    width: 95%;
+    background-color: lightgray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 40px auto;
+   
+}
+#imgs{
+    width: 70%;
+}
+#imgs img{
+    width: 90%;
+    padding: 20px;
+}
+#txt{
+    width: 40%; 
+    padding: 20px;
+}
+#txt a{
+    background-color: dodgerblue;
+    border-radius: 5px;
+    padding: 10px 45px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    box-shadow: 2px 3px 5px black;
+}
+
+/* The Footer begins here */
+
+.footer{
+    background-color: lightgray;
+    padding: 40px 20px;
+    margin-top: -55px;
+    z-index: -7;
+}
+.upper{
+    width: 60%;
+    margin: 0px auto;
+    text-align: center;
+
+}
+.upper h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+}
+.upper p{
+    font-size: 20px;
+}
+.upper a{
+    text-decoration: none;
+    padding: 10px 35px;
+    background-color: dodgerblue;
+    border-radius: 5px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 3px 5px black;
+}
+
+.upper a:hover{
+    color: gold;
+    background-color: rgb(21, 21, 97);
+}
+
+/* this the lower part of the footer. the first div below is used to flex the 4 direct children of this div */
+
+.foot-flex{
+    display: flex;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+   
+}
+
+.foot{
+    width: 25%;
+}
+.foot ul li{
+    margin: 10px 0px;
+    list-style: none;
+}
+.foot ul li a{
+   text-decoration: none;
+   color: black;
+}
+
+.foot ul li a:hover{
+    color: white;
+    font-weight: bold;
+}
+.foot span{
+    margin: 0px 10px;
+    background-color: darkblue;
+    padding: 5px;
+    border-radius: 50%;
+}
+.foot span i{
+    color: white;
+}
+
+
+
