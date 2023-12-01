@@ -23,7 +23,7 @@ body{
     min-width: 600px;
     max-width: 600px;
     text-align: center;
-    /* position: relative; */
+    position: relative;
 }
 .white img{
     width: 400px;
@@ -70,4 +70,26 @@ p a{
     width: 60px;
     height: 60px;
     /* font-size: 40px; */
+}
+.icon{
+    font-size: 40px;
+    color: #3399ff;
+    padding-top: 60px;
+}
+.verifier{
+    border-bottom: 1px solid;
+    margin: auto 90px 30px 90px;
+
+}
+.sent{
+    font-weight: bold;
+}
+.action{
+    color: #3399ff;
+}
+.footer{
+    position: absolute;
+    bottom: -120px;
+    left: 220px;
+    text-decoration: none;
 }
