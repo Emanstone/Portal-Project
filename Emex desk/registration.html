@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="/Emex desk/tools/regnlogin.css">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="formwrapper">
+        <form id="form">
+            <i class="fa-solid fa-arrow-left arrow"></i>
+
+            <h1>Create Account <br><span class="create">Create a new account</span></h1>
+            
+
+
+                <div class="inputbox">
+                    <fieldset>
+                    <legend>Email</legend>
+                    <i class="fa-regular fa-envelope icon"></i>
+                    <input id="email" type="email" placeholder="abc@email.com">
+                        <i class="fas fa-exclamation-circle failure-icon failed"></i>
+                        <i class="far fa-check-circle success-icon passed"></i>
+                    <span class="error"></span>
+             </fieldset>
+            </div>
+
+                <div class="inputbox">
+                    <fieldset>
+                        <legend>PHONE</legend>
+                        <i class="fa-solid fa-mobile-screen-button icon"></i>
+                    <input id="phoneNumber" type="text" placeholder="+2348051234567">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                    </fieldset>
+                </div>
+
+                <div class="inputbox">
+                    <fieldset>
+                        <legend>USERNAME</legend>
+                        <i class="fa-solid fa-user icon"></i>
+                    <input id="username" type="text" placeholder="user1">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                    </fieldset>
+                </div>
+
+                <div class="inputbox">
+                    <fieldset>
+                        <legend>PASSWORD</legend>
+                        <i class="fa-solid fa-lock icon"></i>
+                    <input id="password" type="password" placeholder="********">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                    </fieldset>
+                </div>
+
+                <div class="inputbox">
+                    <fieldset>
+                        <legend>COMFIRM PASSWORD</legend>
+                        <i class="fa-solid fa-lock icon"></i>
+                    <input id="comfirmPassword" type="password" placeholder="********">
+                    <i class="fas fa-exclamation-circle failure-icon"></i>
+                    <i class="far fa-check-circle success-icon"></i>
+                    <span class="error"></span>
+                    </fieldset>
+                </div>
+                <br>
+
+                <button id="btn" type="submit" class="btn">Create Account</button>
+                <div class="registerlink">
+                 <p>Already have an account? <a href="/Emex desk/login.html">Login</a></p>
+                 <br>
+        </form>
+    </div>
+
+    <script src="/Emex desk/tools/val.js"></script>
+
+</body>
+</html>
