@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 90, 0.15);
+    /* background:url(../images/pexels-baskin-creative-studios-1766838.jpg) no-repeat; */
+}
+
+/* This part below is the styhling for the veification page */
+.blue{
+    background-color: #3399ff;
+}
+.white{
+    background-color: #fff;
+    margin: 60px 60px 0 60px;
+    min-width: 600px;
+    max-width: 600px;
+    text-align: center;
+    position: relative;
+}
+.white img{
+    width: 400px;
+    height: 170px;
+    padding-right: 100px;
+    padding-top: 0;
+    /* border: 1px slolid red; */
+    /* position: absolute; */
+    /* top: 0; */
+}
+h2{
+    padding-bottom: 30px;
+}
+p{
+    padding-bottom: 30px;
+}
+.message{
+    color: red;
+}
+/* This is the class name for the verification button */
+.verification{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3399ff;
+    color: #fff;
+    padding: 10px 190px;
+    margin-bottom: 30px;
+    border: none;
+}
+p a{
+    color: #3399ff;
+}
+.change{
+    padding-left: 230px;
+}
+.codeinputs{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-bottom: 20px;
+    /* margin: auto; */
+}
+.codebox input{
+    width: 60px;
+    height: 60px;
+    /* font-size: 40px; */
+}
+.icon{
+    font-size: 40px;
+    color: #3399ff;
+    padding-top: 60px;
+}
+.verifier{
+    border-bottom: 1px solid;
+    margin: auto 90px 30px 90px;
+
+}
+.sent{
+    font-weight: bold;
+}
+.action{
+    color: #3399ff;
+}
+.footer{
+    position: absolute;
+    bottom: -120px;
+    left: 220px;
+    text-decoration: none;
+}
